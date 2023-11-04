@@ -18,10 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`flex flex-col gap-2 md:flex-row md:justify-between 2xl:justify-around min-h-screen ${inter.className}`}
+        className={`flex flex-col md:flex-row md:justify-between 2xl:justify-around min-h-screen ${inter.className}`}
       >
         <NavSection />
-        <section>{children}</section>
+        <section className="md:overflow-y-auto md:flex-1">{children}</section>
       </body>
     </html>
   );
