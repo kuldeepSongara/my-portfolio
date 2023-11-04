@@ -1,9 +1,14 @@
-import Image from "next/image";
+import { ProjectsData } from "@/app/lib/data";
+import ProjectTile from "@/app/ui/ProjectTile";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello world
+    <main className="p-20 flex flex-col gap-2">
+      {ProjectsData.map((project) => (
+        <div key={project.name}>
+          <ProjectTile projectDetail={project} />
+        </div>
+      ))}
     </main>
   );
 }
