@@ -5,12 +5,12 @@ import NavLinks from "./NavLinks";
 
 const NavSection = () => {
   return (
-    <div className="p-10 md:p-12 lg:p-20 2xl:p-24 md:max-h-screen md:max-w-[50%] flex flex-col justify-between gap-30 md:sticky top-0 md:overflow-y-hidden">
+    <div className="p-10 pr-5 md:p-12 md:pr-6 lg:p-20 2xl:p-24 md:max-h-screen md:max-w-[50%] flex flex-col justify-between gap-30 md:sticky top-0 md:overflow-y-hidden">
       <section className="flex flex-col gap-8">
-        <h1 className="text-4xl md:text-6xl xl:text-7xl font-bold flex-wrap tracking-wider">
-          Hello, I'm <br /> Kuldeep Songara
+        <h1 className="text-3xl md:text-5xl xl:text-6xl font-bold flex-wrap tracking-wider">
+          Hi, I'm Kuldeep Songara
         </h1>
-        <article className="md:max-w-md text-slate-300 text-sm font-extralight leading-loose tracking-widest">
+        <article className="text-slate-300 text-sm font-extralight leading-loose tracking-widest">
           As a Senior Solution Engineer, I currently serve as a Web Developer
           within Intuit's esteemed Purchases Squad. My focus predominantly lies
           in front-end development, where I specialize in React and CSS. I'm
