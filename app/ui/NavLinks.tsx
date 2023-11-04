@@ -6,7 +6,7 @@ const NavLinks = (props: any) => {
   let activeLink = 2;
 
   return (
-    <nav className="xl:mt-12 tracking-extrawidest text-xs font-light hidden md:flex flex-col gap-4">
+    <nav className="xl:mt-4 tracking-extrawidest text-xs font-light hidden md:flex flex-col gap-3">
       {NavigationData.map((nav, index) => (
         <Link
           href="#projects"

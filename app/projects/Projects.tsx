@@ -8,7 +8,7 @@ const Projects = () => {
         Projects
       </h6>
       <div
-        className="p-14 md:p-12 lg:p-20 2xl:p-24 flex flex-col gap-2"
+        className="p-10 md:p-12 lg:p-20 2xl:p-24 flex flex-col gap-2"
         id="projects"
       >
         {ProjectsData.map((project) => (

@@ -30,7 +30,7 @@ export const ProjectsData: Project[] = [
 export const BlogsData: Blog[] = [
   {
     topic: "Javascript",
-    title: "Javascript Proxy",
+    title: "JS Proxy",
     description:
       "JavaScript Proxies are like a secret agent for your objects, allowing you to intercept and modify their operations without them ever...",
     date: "11/01/2023",
@@ -39,7 +39,7 @@ export const BlogsData: Blog[] = [
   },
   {
     topic: "Javascript",
-    title: "CLOSURES",
+    title: "Closures",
     description:
       "In JavaScript, a closure is a function that has access to the variables in its lexical scope, even when the function is executed outside of...",
     date: "09/01/2023",
@@ -57,7 +57,7 @@ export const BlogsData: Blog[] = [
   },
   {
     topic: "Web Dev",
-    title: "WEB DEVELOPER",
+    title: "Web Developer",
     description:
       "As the internet continues to play a central role in our daily lives, the demand for skilled web developers has never been greater. If...",
     date: "03/01/2023",

@@ -13,7 +13,7 @@ const Blogs = () => {
         Blogs
       </h6>
       <div
-        className="p-14 md:p-12 lg:p-20 2xl:p-24 flex flex-col gap-2 lg:flex-row"
+        className="p-10 md:p-12 lg:p-20 2xl:p-24 flex flex-col gap-2 lg:flex-row"
         id="blogs"
       >
         <div className="flex flex-col gap-2 lg:w-[50%]">
