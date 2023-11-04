@@ -7,9 +7,10 @@ export type Project = {
 };
 
 export type Blog = {
-  site: string;
-  place: string;
-  date: string;
   topic: string;
+  title: string;
+  description: string;
+  date: string;
   link: string;
+  readTime: string;
 };

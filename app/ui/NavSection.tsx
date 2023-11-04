@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { FaLinkedin } from "react-icons/fa";
 import { LuExternalLink } from "react-icons/lu";
+import NavLinks from "./NavLinks";
 
-const NavSection = ({ activeLink = 1 }) => {
+const NavSection = () => {
   return (
-    <div className="p-10 md:p-14 lg:p-20 2xl:p-24 md:max-h-screen md:max-w-[55%] flex flex-col justify-between gap-30 md:sticky top-0 md:overflow-y-auto">
+    <div className="p-14 md:p-12 lg:p-20 2xl:p-24 md:max-h-screen md:max-w-[45%] flex flex-col justify-between gap-30 md:sticky top-0 md:overflow-y-auto">
       <section className="flex flex-col gap-10">
         <h1 className="text-5xl md:text-6xl xl:text-7xl font-bold flex-wrap tracking-wider">
           Hello, I'm <br /> Kuldeep Songara
@@ -21,17 +22,7 @@ const NavSection = ({ activeLink = 1 }) => {
           Also, I'm in the process of mastering Next.js, so there's more to
           come! 🚀😄
         </article>
-        <nav className="xl:mt-12 tracking-extrawidest text-xs font-light hidden md:flex flex-col gap-4">
-          <p className={activeLink === 1 ? "text-white" : "text-slate-400"}>
-            01 PROJECTS
-          </p>
-          <p className={activeLink === 2 ? "text-white" : "text-slate-400"}>
-            02 BLOGS
-          </p>
-          <p className={activeLink === 3 ? "text-white" : "text-slate-400"}>
-            03 CONTACT
-          </p>
-        </nav>
+        <NavLinks />
       </section>
       <section className="flex flex-row gap-14 mt-10 md:mt-0">
         <Link

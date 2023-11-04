@@ -1,14 +1,13 @@
-import { ProjectsData } from "@/app/lib/data";
-import ProjectTile from "@/app/ui/ProjectTile";
+import Projects from "@/app/projects/Projects";
+import Blogs from "@/app/blogs/Blogs";
+import Contact from "@/app/contact/Contact";
 
 export default function Home() {
   return (
-    <main className="p-10 md:p-14 lg:p-20 flex flex-col gap-2">
-      {ProjectsData.map((project) => (
-        <div key={project.name}>
-          <ProjectTile projectDetail={project} />
-        </div>
-      ))}
+    <main>
+      <Projects />
+      <Blogs />
+      <Contact />
     </main>
   );
 }
