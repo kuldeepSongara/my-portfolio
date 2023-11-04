@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import Link from "next/link";
 import { FaLinkedin } from "react-icons/fa";
 import { LuExternalLink } from "react-icons/lu";
