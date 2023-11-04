@@ -18,7 +18,7 @@ const Blogs = () => {
       >
         <div className="flex flex-col gap-2 lg:w-[50%]">
           {firstHalfData.map((blog) => (
-            <div key={blog.topic}>
+            <div key={blog.title}>
               <BlogTile blogDetail={blog} />
             </div>
           ))}
@@ -26,7 +26,7 @@ const Blogs = () => {
         <div className="flex flex-col gap-2 lg:w-[50%]">
           <div className="hidden lg:block h-20 "></div>
           {secondHalfData.map((blog) => (
-            <div key={blog.topic}>
+            <div key={blog.title}>
               <BlogTile blogDetail={blog} />
             </div>
           ))}

@@ -14,3 +14,8 @@ export type Blog = {
   link: string;
   readTime: string;
 };
+
+export type NavigationInfo = {
+  href: string;
+  linkName: string;
+};

@@ -1,4 +1,4 @@
-import { Blog, Project } from "./definitions";
+import { Blog, NavigationInfo, Project } from "./definitions";
 
 export const ProjectsData: Project[] = [
   {
@@ -63,5 +63,20 @@ export const BlogsData: Blog[] = [
     date: "03/01/2023",
     link: "https://medium.com/@kuldeepsongaraz/road-to-becoming-a-web-developer-f40b34b30ec0",
     readTime: "3 min",
+  },
+];
+
+export const NavigationData: NavigationInfo[] = [
+  {
+    href: "#projects",
+    linkName: "projects",
+  },
+  {
+    href: "#blogs",
+    linkName: "blogs",
+  },
+  {
+    href: "#contact",
+    linkName: "contact",
   },
 ];
