@@ -23,20 +23,9 @@ const NavSection = () => {
           come! 🚀😄
         </article>
       </section>
-      <section className="flex flex-row gap-14 mt-8 md:mt-0">
+      <section className="mt-8 md:mt-0 xl:mt-4 hidden md:flex flex-col gap-3 tracking-extrawidest text-sm font-light">
         <NavLinks />
       </section>
-      {/* <section className="flex flex-row gap-14 mt-8 md:mt-0">
-        <Link
-          href="https://www.linkedin.com/in/kuldeep-songara/"
-          target="_blank"
-          className="flex flex-row items-center gap-2 text-slate-300"
-        >
-          <FaLinkedin className="mr-2" />
-          LinkedIn
-          <LuExternalLink />
-        </Link>
-      </section> */}
     </div>
   );
 };

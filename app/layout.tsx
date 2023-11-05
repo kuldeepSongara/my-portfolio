@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import NavSection from "@/app/components/molecule/NavSection";
+import NavLinks from "@/app/components/molecule/NavLinks";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,9 @@ export default function RootLayout({
       >
         <NavSection />
         <section className="md:overflow-y-auto md:flex-1">{children}</section>
+        <section className="my-10 flex flex-col gap-3 md:hidden tracking-extrawidest text-sm font-light text-center">
+          <NavLinks />
+        </section>
       </body>
     </html>
   );
