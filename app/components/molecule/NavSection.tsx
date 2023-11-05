@@ -7,7 +7,7 @@ const NavSection = () => {
   return (
     <div className="p-10 pr-5 md:p-12 md:pr-6 lg:p-20 2xl:p-24 md:max-h-screen md:max-w-[50%] flex flex-col justify-between gap-30 md:sticky top-0 md:overflow-y-hidden">
       <section className="flex flex-col gap-8">
-        <h1 className="text-3xl md:text-5xl xl:text-6xl font-bold flex-wrap tracking-wider">
+        <h1 className="text-5xl xl:text-6xl font-bold flex-wrap leading-tight">
           Hi, I'm Kuldeep Songara
         </h1>
         <article className="text-slate-300 text-sm font-extralight leading-loose tracking-widest">
@@ -22,9 +22,11 @@ const NavSection = () => {
           Also, I'm in the process of mastering Next.js, so there's more to
           come! 🚀😄
         </article>
-        <NavLinks />
       </section>
       <section className="flex flex-row gap-14 mt-8 md:mt-0">
+        <NavLinks />
+      </section>
+      {/* <section className="flex flex-row gap-14 mt-8 md:mt-0">
         <Link
           href="https://www.linkedin.com/in/kuldeep-songara/"
           target="_blank"
@@ -34,7 +36,7 @@ const NavSection = () => {
           LinkedIn
           <LuExternalLink />
         </Link>
-      </section>
+      </section> */}
     </div>
   );
 };

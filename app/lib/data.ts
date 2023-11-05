@@ -5,7 +5,7 @@ export const ProjectsData: Project[] = [
     tech: "React JS",
     name: "Intuit",
     description:
-      "Intuit is a global technology platform that helps consumers and small businesses overcome their most important financial challenges.",
+      "Platform that helps consumers/small businesses overcome their important financial challenges.",
     techStack: ["Typescript", "Jest", "Playwright", "i18next"],
     role: "Sr. Solution Engineer",
   },
@@ -13,7 +13,7 @@ export const ProjectsData: Project[] = [
     tech: "React JS",
     name: "Continental AG",
     description:
-      "Continental develops pioneering technologies and services for sustainable and connected mobility of people and their goods.",
+      "Pioneering technologies and services for sustainable and connected mobility of people and their goods.",
     techStack: ["Typescript", "Material UI", "i18next"],
     role: "Frontend Web Developer",
   },
@@ -21,7 +21,7 @@ export const ProjectsData: Project[] = [
     tech: "React JS",
     name: "SMA | Solar technology",
     description:
-      "SMA is a leading global specialist in photovoltaic system technology, located in Niestetal Germany",
+      "Global specialist in photovoltaic system technology, located in Niestetal Germany",
     techStack: ["Material UI", "LazyLoading"],
     role: "Frontend Web Developer",
   },
@@ -74,6 +74,10 @@ export const NavigationData: NavigationInfo[] = [
   {
     href: "#blogs",
     linkName: "blogs",
+  },
+  {
+    href: "#experiments",
+    linkName: "experiments",
   },
   {
     href: "#contact",

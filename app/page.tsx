@@ -1,12 +1,14 @@
-import Projects from "@/app/projects/Projects";
-import Blogs from "@/app/blogs/Blogs";
-import Contact from "@/app/contact/Contact";
+import Projects from "@/app/components/molecule/Projects";
+import Blogs from "@/app/components/molecule/Blogs";
+import Contact from "@/app/components/molecule/Contact";
+import Experiments from "@/app/components/molecule/Experiments";
 
 export default function Home() {
   return (
     <main>
       <Projects />
       <Blogs />
+      <Experiments />
       <Contact />
     </main>
   );

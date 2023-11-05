@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <>
-      <h6 className="block md:hidden px-14 mb-[-32px] uppercase text-xs tracking-widest">
+      <h6 className="block md:hidden pl-6 mb-[-32px] uppercase text-sm tracking-widest">
         Contact
       </h6>
       <div
