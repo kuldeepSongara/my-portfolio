@@ -1,5 +1,5 @@
-import { Blog, NavigationInfo, Project } from "./definitions";
-
+import { Blog, ContactInfoType, NavigationInfo, Project } from "./definitions";
+import { BiLogoGmail, BiLogoLinkedin } from "react-icons/bi";
 export const ProjectsData: Project[] = [
   {
     tech: "React JS",
@@ -82,5 +82,18 @@ export const NavigationData: NavigationInfo[] = [
   {
     href: "#contact",
     linkName: "contact",
+  },
+];
+
+export const ContactInfo: ContactInfoType[] = [
+  {
+    Logo: BiLogoGmail,
+    href: "mailto:kuldeepsongaraz@gmail.com",
+    type: "Mail me",
+  },
+  {
+    Logo: BiLogoLinkedin,
+    href: "https://www.linkedin.com/in/kuldeep-songara",
+    type: "LinkedIn",
   },
 ];

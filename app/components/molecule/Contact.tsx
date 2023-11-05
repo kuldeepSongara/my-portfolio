@@ -1,3 +1,6 @@
+import ContactTile from "@/app/components/atom/ContactTile";
+import { ContactInfo } from "@/app/lib/data";
+
 const Contact = () => {
   return (
     <>
@@ -5,10 +8,12 @@ const Contact = () => {
         Contact
       </h6>
       <div
-        className="p-10 pl-5 md:p-12 md:pl-6 lg:p-20 2xl:p-24 flex flex-col gap-2"
+        className="p-10 pl-5 md:p-12 md:pl-6 lg:p-20 2xl:p-24 flex justify-end gap-2"
         id="contact"
       >
-        contact info
+        {ContactInfo.map((contact) => (
+          <ContactTile contactinfo={contact} />
+        ))}
       </div>
     </>
   );

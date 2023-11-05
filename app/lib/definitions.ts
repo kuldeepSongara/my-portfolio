@@ -1,3 +1,5 @@
+import { IconType } from "react-icons";
+
 export type Project = {
   tech: string;
   name: string;
@@ -18,4 +20,10 @@ export type Blog = {
 export type NavigationInfo = {
   href: string;
   linkName: string;
+};
+
+export type ContactInfoType = {
+  Logo: IconType;
+  href: string;
+  type: string;
 };
