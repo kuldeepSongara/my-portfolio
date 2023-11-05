@@ -12,7 +12,7 @@ const Contact = () => {
         id="contact"
       >
         {ContactInfo.map((contact) => (
-          <ContactTile contactinfo={contact} />
+          <ContactTile key={contact.type} contactinfo={contact} />
         ))}
       </div>
     </>
