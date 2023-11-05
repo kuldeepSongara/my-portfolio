@@ -6,7 +6,7 @@ const BlogTile = ({ blogDetail }: { blogDetail: Blog }) => {
   const { title, topic, date, link, readTime } = blogDetail;
 
   return (
-    <section className="bg-[#090909] p-6 h-full border-white hover:border-r transition-all duration-300 ease-in-out">
+    <section className="bg-[#090909] p-6 h-full">
       <h6 className="uppercase text-sm tracking-widest">{topic}</h6>
       <p className="text-sm tracking-wider mt-2 text-slate-400">{date}</p>
       <p className="text-sm tracking-wider mt-1 text-slate-400">{readTime}</p>
