@@ -5,7 +5,7 @@ import NavLinks from "./NavLinks";
 
 const NavSection = () => {
   return (
-    <div className="p-10 pr-5 md:p-12 md:pr-6 lg:p-20 2xl:p-24 md:max-h-screen md:max-w-[50%] flex flex-col justify-between gap-30 md:sticky top-0 md:overflow-y-hidden">
+    <div className="p-10 md:p-12 md:pr-6 lg:p-20 2xl:p-24 md:max-h-screen md:max-w-[50%] flex flex-col justify-between gap-30 md:sticky top-0 md:overflow-y-hidden">
       <section className="flex flex-col gap-8">
         <h1 className="text-5xl xl:text-6xl font-bold flex-wrap leading-tight">
           Hi, I'm Kuldeep Songara
