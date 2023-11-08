@@ -7,7 +7,7 @@ const ContactTile = ({ contactinfo }: { contactinfo: ContactInfoType }) => {
     <Link
       href={contactinfo.href}
       target="_black"
-      className="bg-[#090909] p-6 flex justify-center ease-in-out"
+      className="bg-[#171717] p-6 flex justify-center ease-in-out"
     >
       <Logo />
     </Link>

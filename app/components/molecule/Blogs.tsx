@@ -9,11 +9,11 @@ const Blogs = () => {
 
   return (
     <>
-      <h6 className="block md:hidden pl-6 mb-[-32px] uppercase text-sm tracking-widest">
+      <h6 className="block md:hidden pl-12 mb-[-32px] uppercase text-sm tracking-widest">
         Blogs
       </h6>
       <div
-        className="p-10 pl-5 md:p-12 md:pl-6 lg:p-20 2xl:p-24 flex flex-col gap-2 lg:flex-row"
+        className="p-10 md:p-12 md:pl-6 lg:p-20 2xl:p-24 flex flex-col gap-2 lg:flex-row"
         id="blogs"
       >
         <div className="flex flex-col gap-2 lg:w-[50%]">
