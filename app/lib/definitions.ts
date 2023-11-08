@@ -26,4 +26,5 @@ export type ContactInfoType = {
   Logo: IconType;
   href: string;
   type: string;
+  download: boolean;
 };
