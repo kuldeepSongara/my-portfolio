@@ -1,6 +1,8 @@
 const ExperimentTile = () => {
   return (
-    <section className="bg-[#171717] p-6 text-center">COMING SOON</section>
+    <section className="bg-[#171717] rounded p-6 text-center transition motion-reduce:transition-none">
+      COMING SOON
+    </section>
   );
 };
 

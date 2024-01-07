@@ -8,11 +8,16 @@ const Contact = () => {
         Contact
       </h6>
       <div
-        className="p-10 md:p-12 md:pl-6 lg:p-20 2xl:p-24 flex justify-end gap-2"
+        className="group/list p-10 md:p-12 md:pl-6 lg:p-20 2xl:p-24 flex justify-end gap-2"
         id="contact"
       >
         {ContactInfo.map((contact) => (
-          <ContactTile key={contact.type} contactinfo={contact} />
+          <div
+            key={contact.type}
+            className="group hover:!opacity-100 group-hover/list:opacity-50"
+          >
+            <ContactTile contactinfo={contact} />
+          </div>
         ))}
       </div>
     </>

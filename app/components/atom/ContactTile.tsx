@@ -10,7 +10,7 @@ const ContactTile = ({ contactinfo }: { contactinfo: ContactInfoType }) => {
       <Link
         href={contactinfo.href}
         target="_blank"
-        className="bg-[#171717] p-6 flex justify-center ease-in-out"
+        className="bg-[#171717] group-hover/list:bg-[#000] hover:!bg-[#171717] hover:bg-opacity-50 rounded p-6 flex justify-center transition motion-reduce:transition-none"
         download={contactinfo.download}
       >
         <Logo />
