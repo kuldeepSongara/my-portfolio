@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <Welcome children={children} />
+      <Welcome>{children}</Welcome>
     </html>
   );
 }
