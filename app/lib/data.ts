@@ -11,18 +11,26 @@ export const ProjectsData: Project[] = [
   },
   {
     tech: "React JS",
-    name: "Continental AG",
-    description:
-      "Pioneering technologies and services for sustainable and connected mobility of people and their goods.",
-    techStack: ["Typescript", "Material UI", "i18next"],
-    role: "Frontend Web Developer",
-  },
-  {
-    tech: "React JS",
     name: "SMA | Solar technology",
     description:
       "Global specialist in photovoltaic system technology, located in Niestetal Germany",
     techStack: ["Material UI", "LazyLoading"],
+    role: "Frontend Web Developer",
+  },
+  {
+    tech: "React JS",
+    name: "Cornelsen Verlag",
+    description:
+      "German textbook publisher that offers educational media in Germany, Austria and Switzerland",
+    techStack: ["Material UI", "Phaser Js"],
+    role: "Frontend Web Developer",
+  },
+  {
+    tech: "React JS",
+    name: "Continental AG",
+    description:
+      "Pioneering technologies and services for sustainable and connected mobility of people and their goods.",
+    techStack: ["Typescript", "Material UI", "i18next"],
     role: "Frontend Web Developer",
   },
 ];
