@@ -3,17 +3,17 @@ import { BiLogoGmail, BiLogoLinkedin, BiDownload } from "react-icons/bi";
 export const ProjectsData: Project[] = [
   {
     tech: "React JS",
-    name: "Intuit",
+    name: "Quickbooks - Intuit",
     description:
-      "Collaborated as a Senior Solution Engineer on a global technology platform catering to consumers and small businesses - Utilized ReactJS, Typescript, CSS, Redux-Saga, GraphQL, i18next, LazyLoading, Jest, and Playwright in the tech stack - Addressed intricate challenges within a complex architecture - Played a pivotal role in resolving financial challenges for consumers and small businesses.",
+      "Platform that helps consumers/small businesses overcome their important financial challenges.",
     techStack: ["Typescript", "Redux-Saga", "Jest", "Playwright", "i18next"],
     role: "Sr. Software Engineer",
   },
   {
     tech: "React JS",
-    name: "SMA | Solar technology",
+    name: "SMA | Solar technology AG",
     description:
-      "Successfully executed multiple projects for an electricity provider, utilizing a robust technology stack including React, Material UI, Formik, Redux with Saga middleware, i18next, etc. - Demonstrated ownership and commitment by taking charge of various features, ensuring their readiness for production. - Passionately contributed to the success of the projects, showcasing expertise in implementing cutting-edge technologies and delivering high-quality results.",
+      "Global specialist in photovoltaic system technology, located in Niestetal Germany.",
     techStack: ["Redux-Saga", "Material UI", "Formik"],
     role: "Frontend Web Developer",
   },
@@ -21,7 +21,7 @@ export const ProjectsData: Project[] = [
     tech: "React JS",
     name: "Cornelsen Verlag",
     description:
-      "Developed a website for 10th and 12th-grade students in collaboration with a team of two developers - Utilized React, Phaser.js, and Material UI as the tech stack - Took on the role of Feature Owner - Implemented animations based on provided designs, with a strong emphasis on physics - Successfully addressed challenges in debugging complex animation code",
+      "German textbook publisher that offers educational media in Germany, Austria and Switzerland.",
     techStack: ["Material UI", "Phaser Js"],
     role: "Frontend Web Developer",
   },
@@ -29,7 +29,7 @@ export const ProjectsData: Project[] = [
     tech: "React JS",
     name: "Continental AG",
     description:
-      "Contributed to various projects for a renowned tire-selling brand, showcasing a passion for frontend development - Demonstrated expertise in ReactJS, CSS, Material UI, Redux, Formik, i18next, and LazyLoading - Took ownership of features at the frontend, contributing to the success of the project series - Played a crucial role in the overall project, contributing to its successful completion",
+      "Pioneering technologies and services for sustainable and connected mobility of people and their goods.",
     techStack: ["Typescript", "Redux-Saga", "Material UI", "Formik", "i18next"],
     role: "Frontend Web Developer",
   },
